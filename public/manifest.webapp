@@ -1,33 +1,30 @@
 {
-  "name": "KaiOS",
-  "description": "Demonstrates a basic KaiOS app",
+  "name": "Emergency Info.",
+  "description": "Emergency Information",
   "version": "0.0.1",
   "developer": {
-    "name": "Your name",
-    "url": "http://example.com"
+    "name": "KaiOS",
+    "url": "https://github.com/kaios-design/emergency-information"
   },
   "launch_path": "/index.html",
-    "icons": {
+  "icons": {
     "56": "/icons/app_56.png",
     "112": "/icons/app_112.png"
   },
   "theme_color": "#a065e6",
   "type": "privileged",
-  "permissions": {
-    "systemXHR": {}
-  },
   "chrome": {
     "statusbar": "overlap"
   },
   "orientation": "default",
   "locales": {
     "en-US": {
-      "name": "Template",
-      "description": "Template App for KaiOS"
+      "name": "Emergency Info.",
+      "description": "Emergency Information"
     },
     "zh-CN": {
-      "name": "模板",
-      "description": "KaiOS模板应用"
+      "name": "急救信息",
+      "description": "急救信息"
     }
   },
   "default_locale": "en-US"
