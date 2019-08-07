@@ -1,3 +1,5 @@
-.app {
-  text-align: center;
+#app {
+  position: relative;
+  top: var(--statusbar-height);
+  height: calc(100% - var(--statusbar-height));
 }

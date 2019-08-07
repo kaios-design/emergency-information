@@ -1,0 +1,35 @@
+#app .kai-list-container {
+  height: calc(100% - var(--header-height) - var(--softkeybar-height));
+  background: #fff;
+}
+
+#app .kai-list-container ul {
+  height: 100%;
+  overflow: scroll;
+}
+
+/* Hide select in list items */
+#app .kai-list-container select {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+  border: none;
+}
+
+#app .kai-list-item {
+  padding: .5rem 0;
+  box-sizing: border-box;
+  min-height: 6rem;
+  height: unset;
+}
+
+#app .kai-list-line {
+  width: unset;
+}
+
+.kai-list-line span,
+.kai-list-line label,
+.kai-dialog-container.prompt p {
+  text-align: left;
+}

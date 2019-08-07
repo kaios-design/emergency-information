@@ -5780,6 +5780,14 @@ jsx-ast-utils@^2.0.1:
   dependencies:
     array-includes "^3.0.3"
 
+kaid@^0.0.1-alpha9:
+  version "0.0.1-alpha9"
+  resolved "https://registry.yarnpkg.com/kaid/-/kaid-0.0.1-alpha9.tgz#4018ab62848184960a5d5a504b40a2bcf9316146"
+  integrity sha512-wmPPMr3g1+zXubv2OWFFg602vmYT2VVRm8InzH/b6V9EU5Zka/5rzVnL1XKdBl3bGQftjlR50NinbNu699N16w==
+  dependencies:
+    react "^16.8.4"
+    react-dom "^16.8.4"
+
 kaios-gaia-l10n@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/kaios-gaia-l10n/-/kaios-gaia-l10n-0.0.1.tgz#5fd2d9717b6bed88610f200ced8bbfdc4f92faad"
@@ -8157,7 +8165,7 @@ react-dev-utils@^7.0.3:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.4, react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -8177,7 +8185,7 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.1.tgz#a80141e246eb894824fb4f2901c0c50ef31d4cdb"
   integrity sha512-ioMCzVDWvCvKD8eeT+iukyWrBGrA3DiFYkXfBsVYIRdaREZuBjENG+KjrikavCLasozqRWTwFUagU/O4vPpRMA==
 
-react@16.8.6:
+react@^16.8.4, react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
