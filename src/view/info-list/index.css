@@ -1,11 +1,12 @@
 #app .kai-list-container {
   height: calc(100% - var(--header-height) - var(--softkeybar-height));
   background: #fff;
+  position: relative;
 }
 
 #app .kai-list-container ul {
-  height: 100%;
   overflow: scroll;
+  position: relative;
 }
 
 /* Hide select in list items */

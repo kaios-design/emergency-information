@@ -5780,10 +5780,10 @@ jsx-ast-utils@^2.0.1:
   dependencies:
     array-includes "^3.0.3"
 
-kaid@^0.0.1-alpha9:
-  version "0.0.1-alpha9"
-  resolved "https://registry.yarnpkg.com/kaid/-/kaid-0.0.1-alpha9.tgz#4018ab62848184960a5d5a504b40a2bcf9316146"
-  integrity sha512-wmPPMr3g1+zXubv2OWFFg602vmYT2VVRm8InzH/b6V9EU5Zka/5rzVnL1XKdBl3bGQftjlR50NinbNu699N16w==
+kaid@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/kaid/-/kaid-0.0.2.tgz#be1c31e60035b91a75ec3b312716488ee2b318b1"
+  integrity sha512-N2z2shD1+4AKjCcgew25mi9RyW308bi1vmb8Vua8JKQP37Dp1+gCPy2DQnZ9TS+2nJ+GdopYyfXm0bzkMCXZnQ==
   dependencies:
     react "^16.8.4"
     react-dom "^16.8.4"

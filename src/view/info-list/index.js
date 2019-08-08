@@ -130,7 +130,7 @@ export default class InfoList extends Component {
         <ListItem id="organ-donor" primary="organ-donor" secondary={organDonor}>
           <select value={organDonor} onChange={this.onOrganDonorChange}>
             {organDonorTypes.map(value => (
-              <option value={value} key={value} data-l10n-id={value === 'unknown' ? value : null}>
+              <option value={value} key={value} data-l10n-id={value}>
                 {value}
               </option>
             ))}
